@@ -208,6 +208,9 @@ typedef struct _SECURITY_ATTRIBUTES
 	BOOL bInheritHandle;
 } SECURITY_ATTRIBUTES, *PSECURITY_ATTRIBUTES, *LPSECURITY_ATTRIBUTES;
 
+typedef void* HMODULE;
+typedef void* FARPROC;
+
 #endif
 
 typedef BYTE byte;
